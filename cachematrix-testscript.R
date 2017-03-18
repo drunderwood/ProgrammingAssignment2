@@ -1,0 +1,8 @@
+m1 <- matrix(c(1/2, -1/4, -1, 3/4), nrow = 2, ncol = 2)
+myMatrix_object <- makeCacheMatrix(m1)
+cacheSolve(myMatrix_object)
+cacheSolve(myMatrix_object)
+n2 <- matrix(c(5/8, -1/8, -7/8, 3/8), nrow = 2, ncol = 2)
+myMatrix_object$set(n2)
+cacheSolve(myMatrix_object)
+cacheSolve(myMatrix_object)
